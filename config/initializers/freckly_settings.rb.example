@@ -1,0 +1,11 @@
+# Pivotal Settings
+PivotalTracker::Client.token = "mr_bond"
+
+# Freckle Settings
+Freckly.token = "tickle_me_token"
+Freckly.subdomain = "awesome"
+
+# This is the regex of the project names we want to import
+# Your pivotal project are checked against this regex.
+# If they match they are imported
+PIVOTAL_PROJECT_NAME = /twitter/i
