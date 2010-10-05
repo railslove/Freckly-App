@@ -9,3 +9,7 @@ Freckly.subdomain = "awesome"
 # Your pivotal project are checked against this regex.
 # If they match they are imported
 PIVOTAL_PROJECT_NAME = /twitter/i
+
+# Basic auth
+LOGIN = "login"
+PASSWORD = "password"
