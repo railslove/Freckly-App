@@ -4,3 +4,7 @@ log/*.log
 tmp/**/*
 freckly_settings.rb
 database.yml
+config/server/*
+config/deploy.rb
+config/deploy/*
+Capfile
