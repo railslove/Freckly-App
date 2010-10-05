@@ -1,6 +1,14 @@
-- @projects.each do |project|
-  .project
-    %h1= project.name
-    %h2
-      = project.total_minutes
-      minutes
+- if @projects.empty?
+  .notice
+    %p Uh-oh! No projects here
+    %p
+      Have you ran
+      %span.highlight ProjectUpdater.update
+    %p We suggest you run this as a cron
+- else
+  - @projects.each do |project|
+    .project
+      %h1= project.name
+      %h2
+        = project.total_minutes
+        minutes

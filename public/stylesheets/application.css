@@ -42,9 +42,21 @@ h2.sub_title {
 }
 
 h2.sub_title a {
-  color:#47b806;
+  color:#50B34F;
 }
 
 h2.sub_title a:hover {
   text-decoration:underline;
+}
+
+.notice {
+  border:solid 1px #9d9999;
+  text-align:center;
+  margin:50px auto 0 auto;
+  width:500px;
+}
+
+.notice span.highlight {
+  background-color:#fff7a6;
+  padding:2px;
 }
