@@ -5,4 +5,8 @@
     = stylesheet_link_tag 'application'
     = csrf_meta_tag
   %body
+    %h1.title Freckly
+    %h2.sub_title
+      Built with love by
+      = link_to "Railslove", "http://railslove.com"
     = yield

@@ -28,3 +28,23 @@ a:hover { color:#336788; }
   display:inline;
   color:#5f8e2a;
 }
+
+h1.title {
+  text-align:center;
+  color:#d1194c;
+  font-size:5em;
+  margin:0;
+}
+
+h2.sub_title {
+  font-size:1.5em;
+  text-align:center;
+}
+
+h2.sub_title a {
+  color:#47b806;
+}
+
+h2.sub_title a:hover {
+  text-decoration:underline;
+}
